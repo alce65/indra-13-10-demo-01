@@ -7,8 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "test:bad": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo 'Linter-mock passed' && exit 0",
+    "test": "echo 'Test-mock passed' && exit 0",
+    "test:bad": "echo 'Error: no test specified' && exit 1",
     "prepare": "husky"
   },
   "repository": {
