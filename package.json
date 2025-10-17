@@ -8,8 +8,8 @@
   },
   "scripts": {
     "lint": "echo 'Linter-mock passed' && exit 0",
-    "test:ok": "echo 'Test-mock passed' && exit 0",
-    "test": "echo 'Error: test-mock failed' && exit 1",
+    "test": "echo 'Test-mock passed' && exit 0",
+    "test:bad": "echo 'Error: test-mock failed' && exit 1",
     "prepare": "husky"
   },
   "repository": {
