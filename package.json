@@ -1,0 +1,29 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "Ejemplo de repositorio para un curso de Git, GitHub y GitLab para Indra.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "test:bad": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alce65/indra-13-10-demo-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alce65/indra-13-10-demo-01/issues"
+  },
+  "homepage": "https://github.com/alce65/indra-13-10-demo-01#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
